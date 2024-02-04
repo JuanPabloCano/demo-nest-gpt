@@ -1,0 +1,23 @@
+POST http://localhost:3000/gpt/orthography-check
+Content-Type: application/json
+
+{
+  "prompt": "Hola mi hamigo, komo eztas?"
+}
+
+####
+POST http://localhost:3000/gpt/pros-cons-discusser-stream
+Content-Type: application/json
+
+{
+  "prompt": "Cual celular es mejor, iphone 14 pro o samsung S22"
+}
+
+####
+POST http://localhost:3000/gpt/translate
+Content-Type: application/json
+
+{
+  "prompt": "Es un placer conocerte, puedes indicarme donde encuentro la estación de bus mas cercana?",
+  "lang": "German"
+}

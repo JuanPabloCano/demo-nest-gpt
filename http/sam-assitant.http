@@ -1,0 +1,11 @@
+POST http://localhost:3000/sam-assistant/create-thread
+Content-Type: application/json
+
+###
+POST http://localhost:3000/sam-assistant/user-question
+Content-Type: application/json
+
+{
+  "threadId": "thread_3DslXtlrnLFHzvhfzr1VVAEA",
+  "question": "Quiero sabe cuanto tiempo se demora la entrega del celular"
+}
